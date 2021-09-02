@@ -1,0 +1,82 @@
+@media screen and (max-width: 898px) {
+
+    #section-share {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #hero {
+        order: -1;
+        width: 100%;
+        height: 450px;
+        background-size: 100% 65vh;
+        background-position: top;
+    }
+
+    #social-media a img {
+        width: 15vw;
+    }
+
+    #section-share-content {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    #phone {
+        height: 450px;
+        flex-direction: column;
+    }
+
+    #phone-title {
+        margin-top: 30px;
+    }
+
+    #phone-img {
+        height: 200px;
+        background-size: 100% 200px;
+        margin-right: 0;
+    }
+
+    #editor {
+        flex-direction: column;
+        height: 525px;
+    }
+
+    #editor-img {
+        height: 100%;
+        width: 100%;
+        background-size: 80vw 50vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #editor-title {
+        order: -1;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        margin-left: 5vw;
+    }
+
+    .footer-topics {
+        display: grid;
+        grid: 1fr 1fr / auto auto auto;
+        column-gap: 40px;
+    }
+
+    .footer-title p, .footer-title a {
+        color: #9e9e9e;
+        padding-top: 15px;
+    }
+
+    #footer-topics-title {
+        width: 40vw;
+        padding-right: 5px;
+    }
+
+    h4 {
+        padding-top: 40px;
+    }
+}

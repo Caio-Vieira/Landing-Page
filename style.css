@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.bg-container {
+    background-color: #f0eeeb;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#btn-menu {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#menu li {
+    margin-left: 20px;
+}
+
+#section-share {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-share-content {
+    width: 40%;
+}
+
+h1 {
+    color: #292929;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#section-share p, #phone-title, #editor-title {
+    color: rgb(48, 48, 48);
+}
+
+#checkmarks {
+    margin-top: 20px;
+}
+
+.checkmarks-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkmarks-container p {
+    padding-left: 15px;
+}
+
+#hero {
+    width: 450px;
+    height: 580px;
+    background-image: url(./Assets/Hero\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-right: 10px;
+    outline-color: black;
+}
+
+#form-send {
+    margin-top: 30px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#social-media a img {
+    width: 10vw;
+}
+
+#phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0eeeb;
+    margin-bottom: 50px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#phone-title {
+    margin-left: 5vw;
+    margin-right: 50px;
+}
+
+#phone-title p  , #editor-title p {
+    margin-bottom: 10px;
+}
+
+#phone-title a, #editor-title a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+#phone-title h2  , #editor-title h2{
+    margin-bottom: 10px;
+    color: black;
+}
+
+#phone-img {
+    width: 300px;
+    height: 100%;
+    background-image: url(./Assets/Phone\ Mockup.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: bottom;
+    margin-right: 50px;
+}
+
+#editor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+#editor-img{
+    height: 100%;
+    width: 500px;
+    background-image: url(./Assets/Text\ Editor.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: bottom;
+    margin-left: 5vw;
+    margin-right: 50px;
+}
+
+#editor-title{
+    margin-right: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.footer-topics{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-topics p , .footer-topics a{
+    color: #9e9e9e;
+    padding-top: 15px;
+}
+
+.footer-topics a{
+    display: block;
+}
+
+#footer-topics-title{
+    width: 25vw;
+    padding-right: 10px;
+}
